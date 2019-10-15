@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05aebdba-8b3b-4c28-9837-45479d3f8179" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
-    </list>
+    <list default="true" id="05aebdba-8b3b-4c28-9837-45479d3f8179" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -105,12 +104,12 @@
       <updated>1571034544315</updated>
       <workItem from="1571034545769" duration="1134000" />
       <workItem from="1571046527841" duration="3982000" />
-      <workItem from="1571161856801" duration="259000" />
+      <workItem from="1571161856801" duration="828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5375000" />
+    <option name="totallyTimeSpent" value="5944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
