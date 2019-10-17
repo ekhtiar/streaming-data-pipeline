@@ -5,4 +5,4 @@ ADD ingest_crypto_coin_data.py /
 RUN pip install kafka-python \
   && pip install requests
 
-CMD [ "python","-u","./to_kafka.py" ]
+CMD [ "python","-u","./ingest_crypto_coin_data.py" ]
