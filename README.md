@@ -3,7 +3,8 @@
 ### Resources
 * [Structured Streaming - Databricks](https://docs.databricks.com/spark/latest/structured-streaming/index.html)
 * [Spark Structured Streaming and Streaming Queries - Jacek Laskowski](https://jaceklaskowski.gitbooks.io/spark-structured-streaming/)
-
+* [Dockerize your Python Application](https://runnable.com/docker/python/dockerize-your-python-application)
+* [Docker ARG, ENV and .env - a Complete Guide](https://vsupalov.com/docker-arg-env-variable-guide/)
 
 ### Jar Dependencies
 * [Kafka 0.10+ Source For Structured Streaming » 2.4.4](https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10_2.11/2.4.4)

@@ -43,3 +43,6 @@ sudo apt-get install -y git
 
 # get kafka-docker
 git clone https://github.com/wurstmeister/kafka-docker.git
+
+# run jupyter notebook
+sudo docker run -d --rm -p 8888:8888 jupyter/pyspark-notebook
