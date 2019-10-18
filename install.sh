@@ -27,10 +27,10 @@ if [ "foo" = "foo" ]; then
     fi
 
 # update the apt package index.
-sudo apt-get update
+sudo apt-get -y update
 
 # install docker-ce
-sudo apt-get install docker-ce
+sudo apt-get install -y docker-ce
 
 # check the current release and if necessary update
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose

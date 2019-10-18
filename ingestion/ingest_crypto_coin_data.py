@@ -23,7 +23,7 @@ while True:
         # prepare the value and timestamp for sending to kafka
         data = {'timestamp': time_now, 'usd_value': usd_value}
         # send data to kafka
-        producer.send(coin, value=str(data))
+        producer.send(coin, value=data)
         # a small sleep to not overwhelm the API
         sleep(1)
     # wait 30 seconds till we send the next update
