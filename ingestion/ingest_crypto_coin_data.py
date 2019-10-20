@@ -1,11 +1,19 @@
 import requests
+import argparse
 from time import sleep
 from json import dumps, loads
 from kafka import KafkaProducer
 from datetime import datetime
 
+# get argument parser
+parser = argparse.ArgumentParser(description='Short sample app')
+parser.add_argument('bootstrap_servers', type=str, action="store_true")
+args = parser.parse_args()
+
+bootstrap_servers = args.bootstrap_servers.split(',')
+
 # connect to kafka as a producer
-producer = KafkaProducer(bootstrap_servers=['10.128.0.16:19092'],
+producer = KafkaProducer(bootstrap_servers=bootstrap_servers,
                          value_serializer=lambda x:
                          dumps(x).encode('utf-8'))
 
